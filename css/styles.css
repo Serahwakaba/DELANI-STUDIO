@@ -1,0 +1,25 @@
+.landing{
+    background-image: url(./img/backgrounds/h_img.jpg);
+
+}
+.image{
+    height: 550px;
+    width: 1350px;
+}
+.menu{
+    text-align: center;
+    padding-top:2%;
+}
+.logo{
+    color:white;
+    padding-left:45%;
+    padding-top: 7%;
+}
+.menu h1{
+    color:white;
+    font-family:Calibri;
+    font-size:xx-large;
+    font-weight:lighter;
+    margin:auto;
+    padding-top:2%;
+}
