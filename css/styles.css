@@ -123,11 +123,15 @@ h3{
     color: white;
     height: auto;
 }
+.contact{
+    color: white;
+}
 
 .contact h2{
     padding-top: 23px;
     padding-bottom: 23px;
 }
+
 
 #name{
     background: transparent;
@@ -135,10 +139,8 @@ h3{
 }
 #mail{
     background: transparent;
-    color: white;
 }#text{
     background: transparent;
-    color: white;
 }
 #submit{
     text-align: center;
