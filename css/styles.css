@@ -115,3 +115,32 @@ h3{
     padding: 10px 7px;
      
 }
+
+.contact{
+    background-image: url(../img/backgrounds/c_image.jpg);
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    height: auto;
+}
+
+.contact h2{
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+#name{
+    background: transparent;
+    color: white;
+}
+#mail{
+    background: transparent;
+    color: white;
+}#text{
+    background: transparent;
+    color: white;
+}
+#submit{
+    text-align: center;
+    padding-top: 10px;
+}
