@@ -18,7 +18,7 @@
     
 }
 
-.header h3{
+.header h4{
     color: cornsilk;
     text-align: center;
     text-transform: uppercase;
@@ -30,4 +30,8 @@
     text-transform: uppercase;
     text-align: center;
      
+}
+
+#mouse{
+    height: 120px;
 }
