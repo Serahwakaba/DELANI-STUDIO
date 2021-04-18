@@ -6,3 +6,7 @@ $(".development").click(function () {
     $("#dev-p").toggle();
     $("#dev").toggle();
 });
+$(".product").click(function () {
+    $("#product-p").toggle();
+    $("#product").toggle();
+});
