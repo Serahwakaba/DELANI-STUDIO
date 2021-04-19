@@ -116,7 +116,30 @@ h3{
 .og-grid li {
     display: inline-block;
     padding: 10px 7px;
+    position: relative;
      
+}
+.og-grid li:hover  .middle{
+    opacity: 1; 
+}
+.middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text {
+    background-color:white;
+    display:none;
+    color:black;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+#overlay1{
+display: none;
 }
 
 .contact{
