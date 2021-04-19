@@ -1,4 +1,13 @@
-$(".design").click(function () {
+function on() {
+    document.getElementById("overlay").style.display = "block";
+  }
+  
+  function off() {
+    document.getElementById("overlay").style.display = "none";
+  }
+  
+  
+  $(".design").click(function () {
     $("#design-p").toggle();
     $("#design").toggle();
 });
@@ -10,7 +19,9 @@ $(".product").click(function () {
     $("#product-p").toggle();
     $("#product").toggle();
 });
-
+//portfolio
+ 
+    
 $("#submit").click(function (event) {
     event.preventDefault();
     var name = $("#name").val();
